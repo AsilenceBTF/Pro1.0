@@ -33,10 +33,11 @@
         <scene sceneID="IHN-tl-o7h">
             <objects>
                 <navigationController storyboardIdentifier="EventNav" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NOh-cI-2jU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="tabbar2" id="oQk-PF-Hfk"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="tabbar2" id="oQk-PF-Hfk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="i6q-L5-ODh">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="r8I-uF-r5h" kind="relationship" relationship="rootViewController" id="WdC-Mj-pae"/>
@@ -46,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="-2632" y="61"/>
         </scene>
-        <!--View Controller-->
+        <!--Event View Controller-->
         <scene sceneID="yb9-b2-DdT">
             <objects>
-                <viewController id="r8I-uF-r5h" sceneMemberID="viewController">
+                <viewController id="r8I-uF-r5h" customClass="EventViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Ee-2l-lgD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +65,18 @@
                         <viewLayoutGuide key="safeArea" id="RbD-8g-rsn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="b66-me-9g6"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="b66-me-9g6">
+                        <barButtonItem key="leftBarButtonItem" image="Content1" id="80F-Md-47P"/>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Item" image="add1" landscapeImage="add1" id="tFE-nA-AcX"/>
+                            <barButtonItem image="search" id="JnC-oC-6WS"/>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="eventAddBtn" destination="tFE-nA-AcX" id="by4-oJ-Ygk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AMT-qQ-WBt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -74,12 +86,13 @@
         <scene sceneID="Rg1-6i-DNp">
             <objects>
                 <navigationController storyboardIdentifier="HomeNav" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ju5-dv-npL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="tabbar1" selectedImage="selecttabbar1" id="YaG-af-PRe">
+                    <tabBarItem key="tabBarItem" title="" image="tabbar1" id="YaG-af-PRe">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="-2" vertical="0.0"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XYD-3q-v5K">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Vx6-Wd-VTP"/>
@@ -89,10 +102,10 @@
             </objects>
             <point key="canvasLocation" x="-2632" y="-621"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,7 +134,21 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="EPU-y5-OqR"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="aJ3-36-mvE">
+                        <leftBarButtonItems>
+                            <barButtonItem image="Slider" id="Ndp-wd-vvY"/>
+                            <barButtonItem image="Content" id="bSn-dz-tPr"/>
+                        </leftBarButtonItems>
+                        <rightBarButtonItems>
+                            <barButtonItem image="more_vertical" id="Ycg-nR-toY"/>
+                            <barButtonItem image="search" id="LN1-gY-NK3"/>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="homeNavigationItem" destination="aJ3-36-mvE" id="EHf-17-uoA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -131,10 +158,11 @@
         <scene sceneID="qqZ-Md-XDG">
             <objects>
                 <navigationController storyboardIdentifier="TodoNav" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tWB-iy-BhO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="tabbar3" id="GWJ-pV-Xdq"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="" image="tabbar3" id="GWJ-pV-Xdq"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jpg-a5-bbz">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="ZyQ-lp-9P8" kind="relationship" relationship="rootViewController" id="Px2-ob-5ac"/>
@@ -148,10 +176,11 @@
         <scene sceneID="o3X-vf-MNh">
             <objects>
                 <navigationController storyboardIdentifier="NoteNav" useStoryboardIdentifierAsRestorationIdentifier="YES" id="M4p-ED-Vhs" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="tabbar4" id="Ox2-Zy-EZO"/>
+                    <tabBarItem key="tabBarItem" tag="3" title="" image="tabbar4" id="Ox2-Zy-EZO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dIS-Gc-krE">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <connections>
                         <segue destination="xRD-Tb-Pcy" kind="relationship" relationship="rootViewController" id="qHA-gI-R3a"/>
@@ -179,7 +208,13 @@
                         <viewLayoutGuide key="safeArea" id="XAY-hW-9sb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="KNo-2W-UXC"/>
+                    <navigationItem key="navigationItem" id="aLp-nA-4fU">
+                        <barButtonItem key="leftBarButtonItem" image="Content2" id="hAt-Wo-hr6"/>
+                        <rightBarButtonItems>
+                            <barButtonItem image="add2" id="AXn-3W-WhW"/>
+                            <barButtonItem image="search" id="LZH-bq-AfH"/>
+                        </rightBarButtonItems>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="59d-q0-lbx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -203,7 +238,13 @@
                         <viewLayoutGuide key="safeArea" id="Z9c-VQ-ksd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="mKt-Jr-65G"/>
+                    <navigationItem key="navigationItem" id="mKt-Jr-65G">
+                        <barButtonItem key="leftBarButtonItem" image="Content3" id="2gv-lK-5q8"/>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Item" image="add3" id="jWg-uE-fuE"/>
+                            <barButtonItem title="Item" image="search" id="YIc-FR-H16"/>
+                        </rightBarButtonItems>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Krm-2b-0kU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -211,8 +252,17 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Content" width="60" height="32"/>
+        <image name="Content1" width="77" height="17"/>
+        <image name="Content2" width="120" height="18"/>
+        <image name="Content3" width="140" height="22"/>
         <image name="Frame 5" width="43" height="43"/>
-        <image name="selecttabbar1" width="24" height="24"/>
+        <image name="Slider" width="34" height="34"/>
+        <image name="add1" width="33" height="33"/>
+        <image name="add2" width="33" height="33"/>
+        <image name="add3" width="33" height="33"/>
+        <image name="more_vertical" width="35" height="35"/>
+        <image name="search" width="35" height="35"/>
         <image name="tabbar1" width="28" height="28"/>
         <image name="tabbar2" width="26" height="28"/>
         <image name="tabbar3" width="46" height="46"/>

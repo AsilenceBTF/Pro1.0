@@ -1,5 +1,5 @@
 //
-//  MainTabBarController.h
+//  HomeViewController.h
 //  Pro1.0
 //
 //  Created by asilencebtf on 2022/4/24.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MainTabBarController : UITabBarController <UITabBarControllerDelegate>
+@interface HomeViewController : UIViewController
 
 @end
 

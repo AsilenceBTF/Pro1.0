@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1FB0C3DA597E2ACC1BEA19EA /* Pods_Pro1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C772DBFC5D249588A2D3852C /* Pods_Pro1_0.framework */; };
 		686937F3E88946265B7FF3CD /* Pods_Pro1_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB7B05EE58874B95E9D297D /* Pods_Pro1_0Tests.framework */; };
+		6A69400828159864004D6486 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A69400728159864004D6486 /* HomeViewController.m */; };
 		6A99C38A2812ED7900033660 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C3892812ED7900033660 /* AppDelegate.m */; };
 		6A99C38D2812ED7900033660 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C38C2812ED7900033660 /* SceneDelegate.m */; };
 		6A99C3902812ED7900033660 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C38F2812ED7900033660 /* ViewController.m */; };
@@ -19,6 +20,7 @@
 		6A99C3A52812ED7900033660 /* Pro1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C3A42812ED7900033660 /* Pro1_0Tests.m */; };
 		6A99C3AF2812ED7900033660 /* Pro1_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C3AE2812ED7900033660 /* Pro1_0UITests.m */; };
 		6A99C3B12812ED7900033660 /* Pro1_0UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C3B02812ED7900033660 /* Pro1_0UITestsLaunchTests.m */; };
+		6AD275132815A1D20076CEFF /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD275122815A1D20076CEFF /* EventViewController.m */; };
 		6ADC48A8281550D60065EECA /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC48A7281550D60065EECA /* MainTabBarController.m */; };
 		6F09CCBB2A160066C61859C8 /* Pods_Pro1_0_Pro1_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229D9FE2D2548386D0B8BB41 /* Pods_Pro1_0_Pro1_0UITests.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		1FA2B1E63B483633C6222902 /* Pods-Pro1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pro1.0.release.xcconfig"; path = "Target Support Files/Pods-Pro1.0/Pods-Pro1.0.release.xcconfig"; sourceTree = "<group>"; };
 		229D9FE2D2548386D0B8BB41 /* Pods_Pro1_0_Pro1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pro1_0_Pro1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A69400628159864004D6486 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		6A69400728159864004D6486 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		6A99C3852812ED7900033660 /* Pro1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pro1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A99C3882812ED7900033660 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6A99C3892812ED7900033660 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 		6A99C3AA2812ED7900033660 /* Pro1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pro1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A99C3AE2812ED7900033660 /* Pro1_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pro1_0UITests.m; sourceTree = "<group>"; };
 		6A99C3B02812ED7900033660 /* Pro1_0UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pro1_0UITestsLaunchTests.m; sourceTree = "<group>"; };
+		6AD275112815A1D20076CEFF /* EventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		6AD275122815A1D20076CEFF /* EventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		6ADC48A6281550D60065EECA /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
 		6ADC48A7281550D60065EECA /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		799A1115B6C619309E35685E /* Pods-Pro1.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pro1.0Tests.release.xcconfig"; path = "Target Support Files/Pods-Pro1.0Tests/Pods-Pro1.0Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +108,8 @@
 		6A6940002815771E004D6486 /* Event */ = {
 			isa = PBXGroup;
 			children = (
+				6AD275112815A1D20076CEFF /* EventViewController.h */,
+				6AD275122815A1D20076CEFF /* EventViewController.m */,
 			);
 			path = Event;
 			sourceTree = "<group>";
@@ -123,10 +131,10 @@
 		6A6F0B402814FA970045D543 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6A69400228157729004D6486 /* Note */,
-				6A69400128157723004D6486 /* Todo */,
-				6A6940002815771E004D6486 /* Event */,
 				6ADC48A9281554860065EECA /* Home */,
+				6A6940002815771E004D6486 /* Event */,
+				6A69400128157723004D6486 /* Todo */,
+				6A69400228157729004D6486 /* Note */,
 				6ADC48A6281550D60065EECA /* MainTabBarController.h */,
 				6ADC48A7281550D60065EECA /* MainTabBarController.m */,
 			);
@@ -194,6 +202,8 @@
 		6ADC48A9281554860065EECA /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				6A69400628159864004D6486 /* HomeViewController.h */,
+				6A69400728159864004D6486 /* HomeViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -462,8 +472,10 @@
 				6A99C3902812ED7900033660 /* ViewController.m in Sources */,
 				6ADC48A8281550D60065EECA /* MainTabBarController.m in Sources */,
 				6A99C38A2812ED7900033660 /* AppDelegate.m in Sources */,
+				6AD275132815A1D20076CEFF /* EventViewController.m in Sources */,
 				6A99C39B2812ED7900033660 /* main.m in Sources */,
 				6A99C38D2812ED7900033660 /* SceneDelegate.m in Sources */,
+				6A69400828159864004D6486 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
