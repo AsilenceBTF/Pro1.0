@@ -1,0 +1,1126 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		249FDBEF8F594CDD65CDF686276942A8 /* GoogleFontsiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B2F7810D50C01BECB5A7C3A781EA51 /* GoogleFontsiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281971FFDE002FF9376D8C7740AF5F9E /* Pods-Pro1.0Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7290E6F52D0C3B164667E7A6B622D2D8 /* Pods-Pro1.0Tests-dummy.m */; };
+		2FE1C8453090D5D74169EA3312AB02FB /* UIFont+Poppins.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CA5BAD19D3574131B85473031C74FC3 /* UIFont+Poppins.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		306B8C61FCB0432EDD09C55AD1431952 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6EE4B7592F8BFF74049A2CB76A0541A /* Poppins-SemiBold.ttf */; };
+		37A2801DAF6065406ACC59BA0F31AC44 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE2B8FA6709599B31098C038646D99C6 /* Poppins-Bold.ttf */; };
+		4127FDDBA7FB3B9A71B8787CBA97FD36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF26CFF1E862548F8E456C64372DC06 /* Foundation.framework */; };
+		42BCFC9D19C491BA6F4658A1E92456B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF26CFF1E862548F8E456C64372DC06 /* Foundation.framework */; };
+		531A67D9FA1B8B47054FC5EEAFC9AE4C /* GoogleFontsiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1E55EE956AD1B5E862224DCEB85317 /* GoogleFontsiOS-dummy.m */; };
+		53B60EA309E4023274C071E1FF54DC1F /* Pods-Pro1.0-Pro1.0UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96094E3DB057F8A4879DAC4AAC5EED64 /* Pods-Pro1.0-Pro1.0UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		629EDA89B79FB4F3F72B59EF61DB77B4 /* UIFont+Poppins.m in Sources */ = {isa = PBXBuildFile; fileRef = 6294F34EC3097D04898D33CBF6618CA2 /* UIFont+Poppins.m */; };
+		70BFC8039EE7293BB2650093CD2999A0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA76860B506E69F08B0B154D70C038E /* CoreText.framework */; };
+		834BC43F5B4E93728B0C777C3EA41C45 /* Pods-Pro1.0-Pro1.0UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9491CEC924257B6F1BB53DA6E59766B2 /* Pods-Pro1.0-Pro1.0UITests-dummy.m */; };
+		87CF9817E248488877F0BD28D8CC3CAF /* GFIFontLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A41BB9465FBFF60242E152F202BEA4 /* GFIFontLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F06C30DF5E48D00628701F9FBE73F2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74D207BDA239A25C1380A816F90FF59 /* UIKit.framework */; };
+		A778BD6CC7E2B6E60DBE2B93DBA130DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF26CFF1E862548F8E456C64372DC06 /* Foundation.framework */; };
+		A85E13CBBD3C5B6790C0D1AF51733BD7 /* Pods-Pro1.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1C8D05EFE6757F8AC39AE298409888 /* Pods-Pro1.0-dummy.m */; };
+		C72FC2981A7C437CC1FDC39492F4B5F4 /* GFIFontLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0D1FBA278E15B1899E1AA40F03642C /* GFIFontLoader.m */; };
+		C9394666D21780F0A34220EDF3494DE0 /* Pods-Pro1.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FAE7F3F0149E6F1575983CCD9B832D /* Pods-Pro1.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D42ACADA3FB2D7C86AA1C936BBD52748 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 025EB38B65EA1712996E43A6BE38B302 /* Poppins-Regular.ttf */; };
+		EE5371DE6A37ECC0514BD171A29A3CE1 /* GoogleFontsiOS-Poppins in Resources */ = {isa = PBXBuildFile; fileRef = 9121915AB30DAC80A2D930B88E4C994B /* GoogleFontsiOS-Poppins */; };
+		EEB3B3FCFD18AC426FBA12A27927D521 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 072D458D8FD0A11B249C2DF687C454DE /* Poppins-Medium.ttf */; };
+		F3E74CA8B83814796837D06DD7BECA6D /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29F960D1C546AE5CA9F66FC7B31302B /* Poppins-Light.ttf */; };
+		F7FAFC2B52A6A6A8DD6031A567BCA5DA /* Pods-Pro1.0Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB2E3D428DC595D0F364FFB7998405A3 /* Pods-Pro1.0Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCC7991708C04EA66243EBB176BBA619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF26CFF1E862548F8E456C64372DC06 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13D662A9C4B8FB1AA8A3A38CDAFC0790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63FA548424185080EE30C9807B469E3F;
+			remoteInfo = GoogleFontsiOS;
+		};
+		99F1953D8A043AD87AF570AAF3B5037B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 973B0436698B9B3A6AE9077D622E2ACA;
+			remoteInfo = "GoogleFontsiOS-Poppins";
+		};
+		E6BF8F6462654F00EAF6E98D119A18C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63FA548424185080EE30C9807B469E3F;
+			remoteInfo = GoogleFontsiOS;
+		};
+		EE12A0F36AA6542E2A00A89142AAFADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6B058439431C9DF5709AEADABA4FDCB;
+			remoteInfo = "Pods-Pro1.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025EB38B65EA1712996E43A6BE38B302 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Poppins-Regular.ttf"; path = "Pod/Assets/Fonts/poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		06F60CBD8C47894635D55FD1D3052E9C /* Pods-Pro1.0-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pro1.0-acknowledgements.plist"; sourceTree = "<group>"; };
+		072D458D8FD0A11B249C2DF687C454DE /* Poppins-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Poppins-Medium.ttf"; path = "Pod/Assets/Fonts/poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		07B119301CDEB6A6C3BE96476011771C /* Pods-Pro1.0-Pro1.0UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pro1.0-Pro1.0UITests.modulemap"; sourceTree = "<group>"; };
+		0CA5BAD19D3574131B85473031C74FC3 /* UIFont+Poppins.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+Poppins.h"; path = "Pod/Classes/poppins/UIFont+Poppins.h"; sourceTree = "<group>"; };
+		0D480FD557079455190CD36C69BA68BD /* GoogleFontsiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleFontsiOS.debug.xcconfig; sourceTree = "<group>"; };
+		0E5DD7F4E1E5C50E7AF30369287F003C /* Pods-Pro1.0-Pro1.0UITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Pro1.0-Pro1.0UITests"; path = Pods_Pro1_0_Pro1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27526ACA7C7B3D837F853E3AD7EB6EDD /* Pods-Pro1.0Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pro1.0Tests-Info.plist"; sourceTree = "<group>"; };
+		29A41BB9465FBFF60242E152F202BEA4 /* GFIFontLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GFIFontLoader.h; path = Pod/Classes/GFIFontLoader.h; sourceTree = "<group>"; };
+		2BB58BD3523354FD1CCC281E4DFC473E /* GoogleFontsiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleFontsiOS.release.xcconfig; sourceTree = "<group>"; };
+		2DF26CFF1E862548F8E456C64372DC06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3246025E8100106359880ABE81D33558 /* Pods-Pro1.0Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pro1.0Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B1E55EE956AD1B5E862224DCEB85317 /* GoogleFontsiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleFontsiOS-dummy.m"; sourceTree = "<group>"; };
+		3C4C4013A3868B4A85319BA47457029A /* Pods-Pro1.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pro1.0-Info.plist"; sourceTree = "<group>"; };
+		48FAE7F3F0149E6F1575983CCD9B832D /* Pods-Pro1.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pro1.0-umbrella.h"; sourceTree = "<group>"; };
+		5A8A2E8C3EB885BDE054D740115A8C38 /* Pods-Pro1.0Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pro1.0Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AB9BB1D8D83D627EF34F3871B4CE72E /* Pods-Pro1.0-Pro1.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pro1.0-Pro1.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B08A98E845EF5DD9B61C0FC4664A0D8 /* Pods-Pro1.0Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pro1.0Tests.modulemap"; sourceTree = "<group>"; };
+		5D02731BED86ED095B40D0FC51378BFD /* GoogleFontsiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleFontsiOS-prefix.pch"; sourceTree = "<group>"; };
+		6294F34EC3097D04898D33CBF6618CA2 /* UIFont+Poppins.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Poppins.m"; path = "Pod/Classes/poppins/UIFont+Poppins.m"; sourceTree = "<group>"; };
+		6760B8B89257B356C607EF027F13AB18 /* GoogleFontsiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleFontsiOS-Info.plist"; sourceTree = "<group>"; };
+		7290E6F52D0C3B164667E7A6B622D2D8 /* Pods-Pro1.0Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pro1.0Tests-dummy.m"; sourceTree = "<group>"; };
+		814BA7589D82A31DEEA9D344776D76E2 /* Pods-Pro1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pro1.0.debug.xcconfig"; sourceTree = "<group>"; };
+		821B471F981C3DEECF112ED7C59C3859 /* Pods-Pro1.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pro1.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		88B2F7810D50C01BECB5A7C3A781EA51 /* GoogleFontsiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleFontsiOS-umbrella.h"; sourceTree = "<group>"; };
+		89DAE3D6FDF6DF701B459649F8AECF84 /* Pods-Pro1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pro1.0.release.xcconfig"; sourceTree = "<group>"; };
+		9121915AB30DAC80A2D930B88E4C994B /* GoogleFontsiOS-Poppins */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleFontsiOS-Poppins"; path = Poppins.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9491CEC924257B6F1BB53DA6E59766B2 /* Pods-Pro1.0-Pro1.0UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pro1.0-Pro1.0UITests-dummy.m"; sourceTree = "<group>"; };
+		96094E3DB057F8A4879DAC4AAC5EED64 /* Pods-Pro1.0-Pro1.0UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pro1.0-Pro1.0UITests-umbrella.h"; sourceTree = "<group>"; };
+		983D51E59454C3DFAFF764A7E1A7E16D /* Pods-Pro1.0Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Pro1.0Tests"; path = Pods_Pro1_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3AE9E938C14F8FE7ECFC7907799BD6 /* GoogleFontsiOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleFontsiOS; path = GoogleFontsiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5DB8421FE484DE8FB77F303C7DDCBF2 /* ResourceBundle-Poppins-GoogleFontsiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Poppins-GoogleFontsiOS-Info.plist"; sourceTree = "<group>"; };
+		A92FF6AF42788C7D073A3B830D481073 /* Pods-Pro1.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pro1.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF1C8D05EFE6757F8AC39AE298409888 /* Pods-Pro1.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pro1.0-dummy.m"; sourceTree = "<group>"; };
+		B1CF0706B60FF20F107CBD2DD37B4B48 /* Pods-Pro1.0-Pro1.0UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pro1.0-Pro1.0UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B29F960D1C546AE5CA9F66FC7B31302B /* Poppins-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Poppins-Light.ttf"; path = "Pod/Assets/Fonts/poppins/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		B79518C0BBC3BBE4D73277CCC6E6A7EA /* Pods-Pro1.0-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pro1.0-frameworks.sh"; sourceTree = "<group>"; };
+		C0AEAF46D3D8E18EBF0B38644CAB5ADB /* GoogleFontsiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleFontsiOS.modulemap; sourceTree = "<group>"; };
+		C6EE4B7592F8BFF74049A2CB76A0541A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Poppins-SemiBold.ttf"; path = "Pod/Assets/Fonts/poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		CA0D1FBA278E15B1899E1AA40F03642C /* GFIFontLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GFIFontLoader.m; path = Pod/Classes/GFIFontLoader.m; sourceTree = "<group>"; };
+		CB1A83B4EA685E6130F6E0B0E3ECE1FF /* Pods-Pro1.0 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Pro1.0"; path = Pods_Pro1_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA76860B506E69F08B0B154D70C038E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		D83A86192308069431234BC427F6BEBA /* Pods-Pro1.0-Pro1.0UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pro1.0-Pro1.0UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC324C9FBCBD1F825C97E4DEBCF4FCE6 /* Pods-Pro1.0-Pro1.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pro1.0-Pro1.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4089D7617CC0436EDB2A91A95C5DF71 /* Pods-Pro1.0-Pro1.0UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pro1.0-Pro1.0UITests-Info.plist"; sourceTree = "<group>"; };
+		E628FF572FD325297FD918BF9E8D84CE /* Pods-Pro1.0-Pro1.0UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pro1.0-Pro1.0UITests-frameworks.sh"; sourceTree = "<group>"; };
+		E74D207BDA239A25C1380A816F90FF59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EA74338F88C38D36469BA63005455164 /* Pods-Pro1.0-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pro1.0-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB2E3D428DC595D0F364FFB7998405A3 /* Pods-Pro1.0Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pro1.0Tests-umbrella.h"; sourceTree = "<group>"; };
+		EE2B8FA6709599B31098C038646D99C6 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Poppins-Bold.ttf"; path = "Pod/Assets/Fonts/poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		F21540C067B5FC88498C334A3299C92F /* Pods-Pro1.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pro1.0.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7312449E5943CA0D1364643202523DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51D9196A808292BFBE88D6BB9FD20C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BFC8039EE7293BB2650093CD2999A0 /* CoreText.framework in Frameworks */,
+				A778BD6CC7E2B6E60DBE2B93DBA130DB /* Foundation.framework in Frameworks */,
+				9F06C30DF5E48D00628701F9FBE73F2F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E7977AE40EDF8441F97D3EF5766645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4127FDDBA7FB3B9A71B8787CBA97FD36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2923FDC6CD2A36DE69B6691B1EAD50A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC7991708C04EA66243EBB176BBA619 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE111F91155C390433DDC2A412372AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BCFC9D19C491BA6F4658A1E92456B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A8939AE5E94106B871E46320C604B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF3EB80B621048F0450979B22CF3ED /* Pods-Pro1.0 */,
+				AF4689BD2F2498E657FFE7471371204C /* Pods-Pro1.0Tests */,
+				1ECC171247AB6143A0EA1D6135C76495 /* Pods-Pro1.0-Pro1.0UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				774DD89477A654AC8E4B43436316C693 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A2909930DD718954395EDBEDE45B53B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE2B8FA6709599B31098C038646D99C6 /* Poppins-Bold.ttf */,
+				B29F960D1C546AE5CA9F66FC7B31302B /* Poppins-Light.ttf */,
+				072D458D8FD0A11B249C2DF687C454DE /* Poppins-Medium.ttf */,
+				025EB38B65EA1712996E43A6BE38B302 /* Poppins-Regular.ttf */,
+				C6EE4B7592F8BFF74049A2CB76A0541A /* Poppins-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1ECC171247AB6143A0EA1D6135C76495 /* Pods-Pro1.0-Pro1.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				07B119301CDEB6A6C3BE96476011771C /* Pods-Pro1.0-Pro1.0UITests.modulemap */,
+				D83A86192308069431234BC427F6BEBA /* Pods-Pro1.0-Pro1.0UITests-acknowledgements.markdown */,
+				B1CF0706B60FF20F107CBD2DD37B4B48 /* Pods-Pro1.0-Pro1.0UITests-acknowledgements.plist */,
+				9491CEC924257B6F1BB53DA6E59766B2 /* Pods-Pro1.0-Pro1.0UITests-dummy.m */,
+				E628FF572FD325297FD918BF9E8D84CE /* Pods-Pro1.0-Pro1.0UITests-frameworks.sh */,
+				E4089D7617CC0436EDB2A91A95C5DF71 /* Pods-Pro1.0-Pro1.0UITests-Info.plist */,
+				96094E3DB057F8A4879DAC4AAC5EED64 /* Pods-Pro1.0-Pro1.0UITests-umbrella.h */,
+				DC324C9FBCBD1F825C97E4DEBCF4FCE6 /* Pods-Pro1.0-Pro1.0UITests.debug.xcconfig */,
+				5AB9BB1D8D83D627EF34F3871B4CE72E /* Pods-Pro1.0-Pro1.0UITests.release.xcconfig */,
+			);
+			name = "Pods-Pro1.0-Pro1.0UITests";
+			path = "Target Support Files/Pods-Pro1.0-Pro1.0UITests";
+			sourceTree = "<group>";
+		};
+		34A200141FC3015086717F4E37ACA8DE /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				0CA5BAD19D3574131B85473031C74FC3 /* UIFont+Poppins.h */,
+				6294F34EC3097D04898D33CBF6618CA2 /* UIFont+Poppins.m */,
+				1A2909930DD718954395EDBEDE45B53B /* Resources */,
+			);
+			name = Poppins;
+			sourceTree = "<group>";
+		};
+		4B4CEA807C41F00E7E56F84CA32451C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0AEAF46D3D8E18EBF0B38644CAB5ADB /* GoogleFontsiOS.modulemap */,
+				3B1E55EE956AD1B5E862224DCEB85317 /* GoogleFontsiOS-dummy.m */,
+				6760B8B89257B356C607EF027F13AB18 /* GoogleFontsiOS-Info.plist */,
+				5D02731BED86ED095B40D0FC51378BFD /* GoogleFontsiOS-prefix.pch */,
+				88B2F7810D50C01BECB5A7C3A781EA51 /* GoogleFontsiOS-umbrella.h */,
+				0D480FD557079455190CD36C69BA68BD /* GoogleFontsiOS.debug.xcconfig */,
+				2BB58BD3523354FD1CCC281E4DFC473E /* GoogleFontsiOS.release.xcconfig */,
+				A5DB8421FE484DE8FB77F303C7DDCBF2 /* ResourceBundle-Poppins-GoogleFontsiOS-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleFontsiOS";
+			sourceTree = "<group>";
+		};
+		774DD89477A654AC8E4B43436316C693 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CFA76860B506E69F08B0B154D70C038E /* CoreText.framework */,
+				2DF26CFF1E862548F8E456C64372DC06 /* Foundation.framework */,
+				E74D207BDA239A25C1380A816F90FF59 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		806007219B46E302C4B2A6ED04C8F638 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1D7404F80555A3A1FA35F183B6BE706 /* GoogleFontsiOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD4AD2C92617964465F7D2555CE7492F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				29A41BB9465FBFF60242E152F202BEA4 /* GFIFontLoader.h */,
+				CA0D1FBA278E15B1899E1AA40F03642C /* GFIFontLoader.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		AF4689BD2F2498E657FFE7471371204C /* Pods-Pro1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5B08A98E845EF5DD9B61C0FC4664A0D8 /* Pods-Pro1.0Tests.modulemap */,
+				5A8A2E8C3EB885BDE054D740115A8C38 /* Pods-Pro1.0Tests-acknowledgements.markdown */,
+				3246025E8100106359880ABE81D33558 /* Pods-Pro1.0Tests-acknowledgements.plist */,
+				7290E6F52D0C3B164667E7A6B622D2D8 /* Pods-Pro1.0Tests-dummy.m */,
+				27526ACA7C7B3D837F853E3AD7EB6EDD /* Pods-Pro1.0Tests-Info.plist */,
+				EB2E3D428DC595D0F364FFB7998405A3 /* Pods-Pro1.0Tests-umbrella.h */,
+				A92FF6AF42788C7D073A3B830D481073 /* Pods-Pro1.0Tests.debug.xcconfig */,
+				821B471F981C3DEECF112ED7C59C3859 /* Pods-Pro1.0Tests.release.xcconfig */,
+			);
+			name = "Pods-Pro1.0Tests";
+			path = "Target Support Files/Pods-Pro1.0Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				806007219B46E302C4B2A6ED04C8F638 /* Pods */,
+				E8A94C95931770C075A451EDABB6D6ED /* Products */,
+				03A8939AE5E94106B871E46320C604B2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1D7404F80555A3A1FA35F183B6BE706 /* GoogleFontsiOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD4AD2C92617964465F7D2555CE7492F /* Core */,
+				34A200141FC3015086717F4E37ACA8DE /* Poppins */,
+				4B4CEA807C41F00E7E56F84CA32451C6 /* Support Files */,
+			);
+			name = GoogleFontsiOS;
+			path = GoogleFontsiOS;
+			sourceTree = "<group>";
+		};
+		E8A94C95931770C075A451EDABB6D6ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C3AE9E938C14F8FE7ECFC7907799BD6 /* GoogleFontsiOS */,
+				9121915AB30DAC80A2D930B88E4C994B /* GoogleFontsiOS-Poppins */,
+				CB1A83B4EA685E6130F6E0B0E3ECE1FF /* Pods-Pro1.0 */,
+				983D51E59454C3DFAFF764A7E1A7E16D /* Pods-Pro1.0Tests */,
+				0E5DD7F4E1E5C50E7AF30369287F003C /* Pods-Pro1.0-Pro1.0UITests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8BF3EB80B621048F0450979B22CF3ED /* Pods-Pro1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				F21540C067B5FC88498C334A3299C92F /* Pods-Pro1.0.modulemap */,
+				EA74338F88C38D36469BA63005455164 /* Pods-Pro1.0-acknowledgements.markdown */,
+				06F60CBD8C47894635D55FD1D3052E9C /* Pods-Pro1.0-acknowledgements.plist */,
+				AF1C8D05EFE6757F8AC39AE298409888 /* Pods-Pro1.0-dummy.m */,
+				B79518C0BBC3BBE4D73277CCC6E6A7EA /* Pods-Pro1.0-frameworks.sh */,
+				3C4C4013A3868B4A85319BA47457029A /* Pods-Pro1.0-Info.plist */,
+				48FAE7F3F0149E6F1575983CCD9B832D /* Pods-Pro1.0-umbrella.h */,
+				814BA7589D82A31DEEA9D344776D76E2 /* Pods-Pro1.0.debug.xcconfig */,
+				89DAE3D6FDF6DF701B459649F8AECF84 /* Pods-Pro1.0.release.xcconfig */,
+			);
+			name = "Pods-Pro1.0";
+			path = "Target Support Files/Pods-Pro1.0";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8831A079E039994BBE43A7804E914A70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B60EA309E4023274C071E1FF54DC1F /* Pods-Pro1.0-Pro1.0UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2006720305AB8D09A5A3FDC8DBFF443 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CF9817E248488877F0BD28D8CC3CAF /* GFIFontLoader.h in Headers */,
+				249FDBEF8F594CDD65CDF686276942A8 /* GoogleFontsiOS-umbrella.h in Headers */,
+				2FE1C8453090D5D74169EA3312AB02FB /* UIFont+Poppins.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8DBEC3F298163225D784FD14DB61793 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9394666D21780F0A34220EDF3494DE0 /* Pods-Pro1.0-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE008F749FDDF377CFEDE0C7D6F0ED5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FAFC2B52A6A6A8DD6031A567BCA5DA /* Pods-Pro1.0Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63FA548424185080EE30C9807B469E3F /* GoogleFontsiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86BB9D06585F57975CBFC56DA3370999 /* Build configuration list for PBXNativeTarget "GoogleFontsiOS" */;
+			buildPhases = (
+				B2006720305AB8D09A5A3FDC8DBFF443 /* Headers */,
+				31B7F4C302D2C07C87049F72B82A5F2E /* Sources */,
+				A51D9196A808292BFBE88D6BB9FD20C8 /* Frameworks */,
+				2D609B50F7A332F974E30B53616B17D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E18E6F75F035C3B11F8E00B75DF702 /* PBXTargetDependency */,
+			);
+			name = GoogleFontsiOS;
+			productName = GoogleFontsiOS;
+			productReference = 9C3AE9E938C14F8FE7ECFC7907799BD6 /* GoogleFontsiOS */;
+			productType = "com.apple.product-type.framework";
+		};
+		973B0436698B9B3A6AE9077D622E2ACA /* GoogleFontsiOS-Poppins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B87B87CBB243028CC8D3F4D461E6650 /* Build configuration list for PBXNativeTarget "GoogleFontsiOS-Poppins" */;
+			buildPhases = (
+				AF43B8A6281A1F337BFCC7AF4C91A349 /* Sources */,
+				7312449E5943CA0D1364643202523DBC /* Frameworks */,
+				EEA925EFEF51FCF9DBB16719C50EEC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoogleFontsiOS-Poppins";
+			productName = Poppins;
+			productReference = 9121915AB30DAC80A2D930B88E4C994B /* GoogleFontsiOS-Poppins */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9FFEAFB2A92AFCB43C0AF62B0AF1ACA8 /* Pods-Pro1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E983F587A7922C8BD8DC928DDE8884 /* Build configuration list for PBXNativeTarget "Pods-Pro1.0Tests" */;
+			buildPhases = (
+				FEE008F749FDDF377CFEDE0C7D6F0ED5 /* Headers */,
+				1469F1D86E1FC20962D196F23DB7FBB0 /* Sources */,
+				A9E7977AE40EDF8441F97D3EF5766645 /* Frameworks */,
+				CC87EA84396C424D6A36D113A9014AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BE84C8DF8ADC9B23ADDDAF11875AD91 /* PBXTargetDependency */,
+			);
+			name = "Pods-Pro1.0Tests";
+			productName = Pods_Pro1_0Tests;
+			productReference = 983D51E59454C3DFAFF764A7E1A7E16D /* Pods-Pro1.0Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2FB5990D94E3B9E3691AF3EC1750B89 /* Pods-Pro1.0-Pro1.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58929E35F42D2BAD211E7ABEA56CF2D9 /* Build configuration list for PBXNativeTarget "Pods-Pro1.0-Pro1.0UITests" */;
+			buildPhases = (
+				8831A079E039994BBE43A7804E914A70 /* Headers */,
+				CDBE63F3961CA85EC1B250E1924C7AC6 /* Sources */,
+				D2923FDC6CD2A36DE69B6691B1EAD50A /* Frameworks */,
+				41B50C2E2ACE3CDFE4AF0A5A644CDF78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				677A79B89A15BEEBA64BADEE07498A4F /* PBXTargetDependency */,
+			);
+			name = "Pods-Pro1.0-Pro1.0UITests";
+			productName = Pods_Pro1_0_Pro1_0UITests;
+			productReference = 0E5DD7F4E1E5C50E7AF30369287F003C /* Pods-Pro1.0-Pro1.0UITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6B058439431C9DF5709AEADABA4FDCB /* Pods-Pro1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC36E2904DDBF4F9C71C9216D94B0A3A /* Build configuration list for PBXNativeTarget "Pods-Pro1.0" */;
+			buildPhases = (
+				E8DBEC3F298163225D784FD14DB61793 /* Headers */,
+				D34D37A6A8C1767404CD1A92CF9256AF /* Sources */,
+				FEE111F91155C390433DDC2A412372AB /* Frameworks */,
+				5BC0572171BA49F9D8B82E7BEBB638DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACCBC64A255F20B288812403701DDD7 /* PBXTargetDependency */,
+			);
+			name = "Pods-Pro1.0";
+			productName = Pods_Pro1_0;
+			productReference = CB1A83B4EA685E6130F6E0B0E3ECE1FF /* Pods-Pro1.0 */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E8A94C95931770C075A451EDABB6D6ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63FA548424185080EE30C9807B469E3F /* GoogleFontsiOS */,
+				973B0436698B9B3A6AE9077D622E2ACA /* GoogleFontsiOS-Poppins */,
+				D6B058439431C9DF5709AEADABA4FDCB /* Pods-Pro1.0 */,
+				A2FB5990D94E3B9E3691AF3EC1750B89 /* Pods-Pro1.0-Pro1.0UITests */,
+				9FFEAFB2A92AFCB43C0AF62B0AF1ACA8 /* Pods-Pro1.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D609B50F7A332F974E30B53616B17D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5371DE6A37ECC0514BD171A29A3CE1 /* GoogleFontsiOS-Poppins in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B50C2E2ACE3CDFE4AF0A5A644CDF78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC0572171BA49F9D8B82E7BEBB638DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC87EA84396C424D6A36D113A9014AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA925EFEF51FCF9DBB16719C50EEC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A2801DAF6065406ACC59BA0F31AC44 /* Poppins-Bold.ttf in Resources */,
+				F3E74CA8B83814796837D06DD7BECA6D /* Poppins-Light.ttf in Resources */,
+				EEB3B3FCFD18AC426FBA12A27927D521 /* Poppins-Medium.ttf in Resources */,
+				D42ACADA3FB2D7C86AA1C936BBD52748 /* Poppins-Regular.ttf in Resources */,
+				306B8C61FCB0432EDD09C55AD1431952 /* Poppins-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1469F1D86E1FC20962D196F23DB7FBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281971FFDE002FF9376D8C7740AF5F9E /* Pods-Pro1.0Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B7F4C302D2C07C87049F72B82A5F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72FC2981A7C437CC1FDC39492F4B5F4 /* GFIFontLoader.m in Sources */,
+				531A67D9FA1B8B47054FC5EEAFC9AE4C /* GoogleFontsiOS-dummy.m in Sources */,
+				629EDA89B79FB4F3F72B59EF61DB77B4 /* UIFont+Poppins.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF43B8A6281A1F337BFCC7AF4C91A349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBE63F3961CA85EC1B250E1924C7AC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834BC43F5B4E93728B0C777C3EA41C45 /* Pods-Pro1.0-Pro1.0UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34D37A6A8C1767404CD1A92CF9256AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85E13CBBD3C5B6790C0D1AF51733BD7 /* Pods-Pro1.0-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ACCBC64A255F20B288812403701DDD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleFontsiOS;
+			target = 63FA548424185080EE30C9807B469E3F /* GoogleFontsiOS */;
+			targetProxy = E6BF8F6462654F00EAF6E98D119A18C2 /* PBXContainerItemProxy */;
+		};
+		677A79B89A15BEEBA64BADEE07498A4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleFontsiOS;
+			target = 63FA548424185080EE30C9807B469E3F /* GoogleFontsiOS */;
+			targetProxy = 13D662A9C4B8FB1AA8A3A38CDAFC0790 /* PBXContainerItemProxy */;
+		};
+		7BE84C8DF8ADC9B23ADDDAF11875AD91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Pro1.0";
+			target = D6B058439431C9DF5709AEADABA4FDCB /* Pods-Pro1.0 */;
+			targetProxy = EE12A0F36AA6542E2A00A89142AAFADD /* PBXContainerItemProxy */;
+		};
+		F1E18E6F75F035C3B11F8E00B75DF702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleFontsiOS-Poppins";
+			target = 973B0436698B9B3A6AE9077D622E2ACA /* GoogleFontsiOS-Poppins */;
+			targetProxy = 99F1953D8A043AD87AF570AAF3B5037B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B40029FA5D60FEFBD2692DEE491656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D480FD557079455190CD36C69BA68BD /* GoogleFontsiOS.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleFontsiOS";
+				IBSC_MODULE = GoogleFontsiOS;
+				INFOPLIST_FILE = "Target Support Files/GoogleFontsiOS/ResourceBundle-Poppins-GoogleFontsiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Poppins;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		24B0701AD545DDB90F111713D3247C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89DAE3D6FDF6DF701B459649F8AECF84 /* Pods-Pro1.0.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pro1.0/Pods-Pro1.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pro1.0/Pods-Pro1.0.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2BF3332402A5D060FBB1B80E4CE24053 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92FF6AF42788C7D073A3B830D481073 /* Pods-Pro1.0Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pro1.0Tests/Pods-Pro1.0Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pro1.0Tests/Pods-Pro1.0Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		55148C0BF2C4D2FA78E4200C8561990B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB58BD3523354FD1CCC281E4DFC473E /* GoogleFontsiOS.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleFontsiOS";
+				IBSC_MODULE = GoogleFontsiOS;
+				INFOPLIST_FILE = "Target Support Files/GoogleFontsiOS/ResourceBundle-Poppins-GoogleFontsiOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Poppins;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6B53E648DB2FBA9484216BC81B6485BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D480FD557079455190CD36C69BA68BD /* GoogleFontsiOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleFontsiOS/GoogleFontsiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleFontsiOS/GoogleFontsiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GoogleFontsiOS/GoogleFontsiOS.modulemap";
+				PRODUCT_MODULE_NAME = GoogleFontsiOS;
+				PRODUCT_NAME = GoogleFontsiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87E9A0BC88AF0FC769877C6820C5FAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC324C9FBCBD1F825C97E4DEBCF4FCE6 /* Pods-Pro1.0-Pro1.0UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pro1.0-Pro1.0UITests/Pods-Pro1.0-Pro1.0UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pro1.0-Pro1.0UITests/Pods-Pro1.0-Pro1.0UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A164355A1C9AF20EFC6FDF14DFE3B631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB9BB1D8D83D627EF34F3871B4CE72E /* Pods-Pro1.0-Pro1.0UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pro1.0-Pro1.0UITests/Pods-Pro1.0-Pro1.0UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pro1.0-Pro1.0UITests/Pods-Pro1.0-Pro1.0UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A78AFA8AAFF0A9E68360CFA365C87978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821B471F981C3DEECF112ED7C59C3859 /* Pods-Pro1.0Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pro1.0Tests/Pods-Pro1.0Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pro1.0Tests/Pods-Pro1.0Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8F72368B3F5F5038B2622B8724344B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814BA7589D82A31DEEA9D344776D76E2 /* Pods-Pro1.0.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Pro1.0/Pods-Pro1.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pro1.0/Pods-Pro1.0.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DDE699E0B561BC0615FE0600BC83DFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB58BD3523354FD1CCC281E4DFC473E /* GoogleFontsiOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleFontsiOS/GoogleFontsiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleFontsiOS/GoogleFontsiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GoogleFontsiOS/GoogleFontsiOS.modulemap";
+				PRODUCT_MODULE_NAME = GoogleFontsiOS;
+				PRODUCT_NAME = GoogleFontsiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E983F587A7922C8BD8DC928DDE8884 /* Build configuration list for PBXNativeTarget "Pods-Pro1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF3332402A5D060FBB1B80E4CE24053 /* Debug */,
+				A78AFA8AAFF0A9E68360CFA365C87978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58929E35F42D2BAD211E7ABEA56CF2D9 /* Build configuration list for PBXNativeTarget "Pods-Pro1.0-Pro1.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E9A0BC88AF0FC769877C6820C5FAFE /* Debug */,
+				A164355A1C9AF20EFC6FDF14DFE3B631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86BB9D06585F57975CBFC56DA3370999 /* Build configuration list for PBXNativeTarget "GoogleFontsiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B53E648DB2FBA9484216BC81B6485BA /* Debug */,
+				DDE699E0B561BC0615FE0600BC83DFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B87B87CBB243028CC8D3F4D461E6650 /* Build configuration list for PBXNativeTarget "GoogleFontsiOS-Poppins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B40029FA5D60FEFBD2692DEE491656 /* Debug */,
+				55148C0BF2C4D2FA78E4200C8561990B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC36E2904DDBF4F9C71C9216D94B0A3A /* Build configuration list for PBXNativeTarget "Pods-Pro1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F72368B3F5F5038B2622B8724344B5 /* Debug */,
+				24B0701AD545DDB90F111713D3247C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,18 @@
+PODS:
+  - GoogleFontsiOS/Core (0.1.1)
+  - GoogleFontsiOS/Poppins (0.1.1):
+    - GoogleFontsiOS/Core
+
+DEPENDENCIES:
+  - GoogleFontsiOS/Poppins
+
+SPEC REPOS:
+  trunk:
+    - GoogleFontsiOS
+
+SPEC CHECKSUMS:
+  GoogleFontsiOS: 9f4a4f886160d8cb723bd936604b3f6b975f1167
+
+PODFILE CHECKSUM: 860ae56540d6fcb50ac0e28c80ed3418182fbf38
+
+COCOAPODS: 1.11.3
