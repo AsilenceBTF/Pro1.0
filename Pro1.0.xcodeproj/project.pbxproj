@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		1FB0C3DA597E2ACC1BEA19EA /* Pods_Pro1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C772DBFC5D249588A2D3852C /* Pods_Pro1_0.framework */; };
 		686937F3E88946265B7FF3CD /* Pods_Pro1_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB7B05EE58874B95E9D297D /* Pods_Pro1_0Tests.framework */; };
+		6A528E6D2816D87000C9BE56 /* NoteSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A528E6C2816D87000C9BE56 /* NoteSectionViewController.m */; };
+		6A528E702816F13B00C9BE56 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A528E6F2816F13B00C9BE56 /* NoteViewController.m */; };
 		6A69400828159864004D6486 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A69400728159864004D6486 /* HomeViewController.m */; };
 		6A99C38A2812ED7900033660 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C3892812ED7900033660 /* AppDelegate.m */; };
 		6A99C38D2812ED7900033660 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C38C2812ED7900033660 /* SceneDelegate.m */; };
-		6A99C3902812ED7900033660 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C38F2812ED7900033660 /* ViewController.m */; };
 		6A99C3932812ED7900033660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A99C3912812ED7900033660 /* Main.storyboard */; };
 		6A99C3952812ED7900033660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A99C3942812ED7900033660 /* Assets.xcassets */; };
 		6A99C3982812ED7900033660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A99C3962812ED7900033660 /* LaunchScreen.storyboard */; };
@@ -20,6 +21,8 @@
 		6A99C3A52812ED7900033660 /* Pro1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C3A42812ED7900033660 /* Pro1_0Tests.m */; };
 		6A99C3AF2812ED7900033660 /* Pro1_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C3AE2812ED7900033660 /* Pro1_0UITests.m */; };
 		6A99C3B12812ED7900033660 /* Pro1_0UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C3B02812ED7900033660 /* Pro1_0UITestsLaunchTests.m */; };
+		6AA0F7E228168C470082E9C0 /* EventSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0F7E128168C470082E9C0 /* EventSectionViewController.m */; };
+		6AA0F7E52816A9420082E9C0 /* TodoSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0F7E42816A9420082E9C0 /* TodoSectionViewController.m */; };
 		6AD275132815A1D20076CEFF /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD275122815A1D20076CEFF /* EventViewController.m */; };
 		6ADC48A8281550D60065EECA /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC48A7281550D60065EECA /* MainTabBarController.m */; };
 		6F09CCBB2A160066C61859C8 /* Pods_Pro1_0_Pro1_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229D9FE2D2548386D0B8BB41 /* Pods_Pro1_0_Pro1_0UITests.framework */; };
@@ -45,6 +48,10 @@
 /* Begin PBXFileReference section */
 		1FA2B1E63B483633C6222902 /* Pods-Pro1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pro1.0.release.xcconfig"; path = "Target Support Files/Pods-Pro1.0/Pods-Pro1.0.release.xcconfig"; sourceTree = "<group>"; };
 		229D9FE2D2548386D0B8BB41 /* Pods_Pro1_0_Pro1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pro1_0_Pro1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A528E6B2816D87000C9BE56 /* NoteSectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteSectionViewController.h; sourceTree = "<group>"; };
+		6A528E6C2816D87000C9BE56 /* NoteSectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteSectionViewController.m; sourceTree = "<group>"; };
+		6A528E6E2816F13B00C9BE56 /* NoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		6A528E6F2816F13B00C9BE56 /* NoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
 		6A69400628159864004D6486 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		6A69400728159864004D6486 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		6A99C3852812ED7900033660 /* Pro1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pro1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,8 +59,6 @@
 		6A99C3892812ED7900033660 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6A99C38B2812ED7900033660 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		6A99C38C2812ED7900033660 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		6A99C38E2812ED7900033660 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6A99C38F2812ED7900033660 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6A99C3922812ED7900033660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A99C3942812ED7900033660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A99C3972812ED7900033660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,6 +69,10 @@
 		6A99C3AA2812ED7900033660 /* Pro1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pro1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A99C3AE2812ED7900033660 /* Pro1_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pro1_0UITests.m; sourceTree = "<group>"; };
 		6A99C3B02812ED7900033660 /* Pro1_0UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pro1_0UITestsLaunchTests.m; sourceTree = "<group>"; };
+		6AA0F7E028168C470082E9C0 /* EventSectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventSectionViewController.h; sourceTree = "<group>"; };
+		6AA0F7E128168C470082E9C0 /* EventSectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventSectionViewController.m; sourceTree = "<group>"; };
+		6AA0F7E32816A9420082E9C0 /* TodoSectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoSectionViewController.h; sourceTree = "<group>"; };
+		6AA0F7E42816A9420082E9C0 /* TodoSectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoSectionViewController.m; sourceTree = "<group>"; };
 		6AD275112815A1D20076CEFF /* EventViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
 		6AD275122815A1D20076CEFF /* EventViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		6ADC48A6281550D60065EECA /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
@@ -124,6 +133,8 @@
 		6A69400228157729004D6486 /* Note */ = {
 			isa = PBXGroup;
 			children = (
+				6A528E6E2816F13B00C9BE56 /* NoteViewController.h */,
+				6A528E6F2816F13B00C9BE56 /* NoteViewController.m */,
 			);
 			path = Note;
 			sourceTree = "<group>";
@@ -171,8 +182,6 @@
 				6A99C3892812ED7900033660 /* AppDelegate.m */,
 				6A99C38B2812ED7900033660 /* SceneDelegate.h */,
 				6A99C38C2812ED7900033660 /* SceneDelegate.m */,
-				6A99C38E2812ED7900033660 /* ViewController.h */,
-				6A99C38F2812ED7900033660 /* ViewController.m */,
 				6A99C3912812ED7900033660 /* Main.storyboard */,
 				6A99C3942812ED7900033660 /* Assets.xcassets */,
 				6A99C3962812ED7900033660 /* LaunchScreen.storyboard */,
@@ -204,6 +213,12 @@
 			children = (
 				6A69400628159864004D6486 /* HomeViewController.h */,
 				6A69400728159864004D6486 /* HomeViewController.m */,
+				6AA0F7E028168C470082E9C0 /* EventSectionViewController.h */,
+				6AA0F7E128168C470082E9C0 /* EventSectionViewController.m */,
+				6AA0F7E32816A9420082E9C0 /* TodoSectionViewController.h */,
+				6AA0F7E42816A9420082E9C0 /* TodoSectionViewController.m */,
+				6A528E6B2816D87000C9BE56 /* NoteSectionViewController.h */,
+				6A528E6C2816D87000C9BE56 /* NoteSectionViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -469,12 +484,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A99C3902812ED7900033660 /* ViewController.m in Sources */,
+				6AA0F7E52816A9420082E9C0 /* TodoSectionViewController.m in Sources */,
 				6ADC48A8281550D60065EECA /* MainTabBarController.m in Sources */,
 				6A99C38A2812ED7900033660 /* AppDelegate.m in Sources */,
+				6AA0F7E228168C470082E9C0 /* EventSectionViewController.m in Sources */,
 				6AD275132815A1D20076CEFF /* EventViewController.m in Sources */,
 				6A99C39B2812ED7900033660 /* main.m in Sources */,
 				6A99C38D2812ED7900033660 /* SceneDelegate.m in Sources */,
+				6A528E6D2816D87000C9BE56 /* NoteSectionViewController.m in Sources */,
+				6A528E702816F13B00C9BE56 /* NoteViewController.m in Sources */,
 				6A69400828159864004D6486 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
