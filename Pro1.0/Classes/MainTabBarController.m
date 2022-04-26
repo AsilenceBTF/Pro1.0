@@ -26,10 +26,11 @@
     _tabBarItemsImage= [[NSArray alloc] initWithObjects:@"tabbar1", @"tabbar2", @"tabbar3", @"tabbar4", nil];
     _tabBarItemsSelectedImage = [[NSArray alloc] initWithObjects:@"selecttabbar1", @"selecttabbar2", @"selecttabbar3", @"selecttabbar4", nil];
     self.delegate = self;
-
     [self navigationInitlazition];
+    self.tabBar.backgroundImage = [[UIImage alloc] init];
+    self.tabBar.shadowImage = [[UIImage alloc] init];
+    
 }
-
 
 #pragma mark-NavigationInitlazition
 - (void)navigationInitlazition {
@@ -41,6 +42,7 @@
         [item setSelectedImage:[UIImage imageNamed:_tabBarItemsSelectedImage[i]]];
     }
 }
+
 /*
 #pragma mark - Navigation
 

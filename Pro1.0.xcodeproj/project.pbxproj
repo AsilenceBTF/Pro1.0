@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1FB0C3DA597E2ACC1BEA19EA /* Pods_Pro1_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C772DBFC5D249588A2D3852C /* Pods_Pro1_0.framework */; };
 		686937F3E88946265B7FF3CD /* Pods_Pro1_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB7B05EE58874B95E9D297D /* Pods_Pro1_0Tests.framework */; };
+		6A3F55D92817D68B00CF971A /* WaterFallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F55D82817D68B00CF971A /* WaterFallFlowLayout.m */; };
 		6A528E6D2816D87000C9BE56 /* NoteSectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A528E6C2816D87000C9BE56 /* NoteSectionViewController.m */; };
 		6A528E702816F13B00C9BE56 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A528E6F2816F13B00C9BE56 /* NoteViewController.m */; };
 		6A69400828159864004D6486 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A69400728159864004D6486 /* HomeViewController.m */; };
@@ -48,6 +49,8 @@
 /* Begin PBXFileReference section */
 		1FA2B1E63B483633C6222902 /* Pods-Pro1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pro1.0.release.xcconfig"; path = "Target Support Files/Pods-Pro1.0/Pods-Pro1.0.release.xcconfig"; sourceTree = "<group>"; };
 		229D9FE2D2548386D0B8BB41 /* Pods_Pro1_0_Pro1_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pro1_0_Pro1_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3F55D72817D68B00CF971A /* WaterFallFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFallFlowLayout.h; sourceTree = "<group>"; };
+		6A3F55D82817D68B00CF971A /* WaterFallFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFallFlowLayout.m; sourceTree = "<group>"; };
 		6A528E6B2816D87000C9BE56 /* NoteSectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteSectionViewController.h; sourceTree = "<group>"; };
 		6A528E6C2816D87000C9BE56 /* NoteSectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteSectionViewController.m; sourceTree = "<group>"; };
 		6A528E6E2816F13B00C9BE56 /* NoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 			children = (
 				6A528E6E2816F13B00C9BE56 /* NoteViewController.h */,
 				6A528E6F2816F13B00C9BE56 /* NoteViewController.m */,
+				6A3F55D72817D68B00CF971A /* WaterFallFlowLayout.h */,
+				6A3F55D82817D68B00CF971A /* WaterFallFlowLayout.m */,
 			);
 			path = Note;
 			sourceTree = "<group>";
@@ -486,6 +491,7 @@
 			files = (
 				6AA0F7E52816A9420082E9C0 /* TodoSectionViewController.m in Sources */,
 				6ADC48A8281550D60065EECA /* MainTabBarController.m in Sources */,
+				6A3F55D92817D68B00CF971A /* WaterFallFlowLayout.m in Sources */,
 				6A99C38A2812ED7900033660 /* AppDelegate.m in Sources */,
 				6AA0F7E228168C470082E9C0 /* EventSectionViewController.m in Sources */,
 				6AD275132815A1D20076CEFF /* EventViewController.m in Sources */,

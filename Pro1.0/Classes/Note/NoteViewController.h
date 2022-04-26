@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NoteViewController : UIViewController<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@interface NoteViewController : UIViewController<UICollectionViewDelegate, UICollectionViewDataSource>
 
 @end
 
